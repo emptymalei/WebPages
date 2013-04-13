@@ -156,7 +156,7 @@
 	color: gray;
 }
 .camera_caption > div a{
-	color:#aaaaaa;
+	color:white;
 	text-decoration:none;
 	font-face:bold;
 }

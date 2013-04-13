@@ -82,7 +82,7 @@
                 hover: true,
                 minHeight: '200px',
                 time: 7000,
-                transPeriod: 1500,
+                transPeriod: 800,
                 loaderColor: '#555555',
                 loaderBgColor: 'black'
                 });
@@ -128,10 +128,10 @@
                 <div class="camera_caption fadeIn">图片说明。可是使用 HTML 元素，比如可以这样添加<a href="iastro.lamost.org">链接</a>。或者添加其它自定义样式的链接：<a href="http://sdutianxie.lamost.org" style="color:grey;text-decoration:none;">We can use links.</a></div>
             </div>
             <div data-src="images/slides/leaf.jpg">
-                <div class="camera_caption fadeIn">图片说明。可是使用 HTML 元素，比如可以这样添加<p style="color:red;font-face:bold;">新的段落。当然这个段落中还可以自定义样式。</a>。甚至我们可以再添加图片：<img src="images/slides/leaf.jpg" style="width:70px;">。</div>
+                <div class="camera_caption fadeIn">图片说明。可是使用 HTML 元素，比如可以这样添加<p style="color:gray;font-face:bold;">新的段落。当然这个段落中还可以自定义样式。</a>。甚至我们可以再添加图片：<img src="images/slides/leaf.jpg" style="width:70px;">。</div>
             </div>
             <div data-src="images/slides/road.jpg">
-                <div class="camera_caption fadeIn">图片说明。可是使用 HTML 元素，比如可以这样添加<p style="color:red;font-face:bold;">新的段落。当然这个段落中还可以自定义样式。</a>。甚至我们可以再添加图片：<img src="images/slides/leaf.jpg" style="width:70px;">，甚至视频：<embed src="http://player.youku.com/player.php/sid/XNTIwMzA4MTA0/v.swf" allowFullScreen="true" quality="high" width="100" height="80" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></div>            
+                <div class="camera_caption fadeIn">图片说明。可是使用 HTML 元素，比如可以这样添加<p style="color:gray;font-face:bold;">新的段落。当然这个段落中还可以自定义样式。</a>。甚至我们可以再添加图片：<img src="images/slides/leaf.jpg" style="width:70px;">，甚至视频：<embed src="http://player.youku.com/player.php/sid/XNTIwMzA4MTA0/v.swf" allowFullScreen="true" quality="high" width="100" height="80" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></div>            
 	    </div>
             <div data-src="images/slides/sea.jpg"></div>
             <div data-src="images/slides/shelter.jpg"></div>
