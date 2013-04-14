@@ -3,7 +3,7 @@
 <html> 
 <head> 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
-    <title>山东大学天文爱好者协会</title> 
+    <title>导航页|山东大学天文爱好者协会</title> 
     <meta name="description" content="山东大学天文爱好者协会网站导航页"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -37,17 +37,7 @@
 			max-width: 1000px;
 			width: 90%;
 		}
-        .title {
-            font-size: 16px;
-            color: white;
-            font-weight: bold;
-            margin: 10px 0 5px 0;
-        }
-        .title2 {
-            font-size: 14px;
-            color: white;
-            margin: 10px 0 20px 0;
-        }
+
 	</style>
 
 
@@ -79,15 +69,13 @@
                 pagination:false,
                 loader:'bar',
                 alignment:'center',
-                hover: true,
+                hover: false,
                 minHeight: '200px',
                 time: 7000,
                 transPeriod: 800,
                 loaderColor: '#555555',
                 loaderBgColor: 'black'
                 });
-
-
 		});
 	</script>
  
@@ -101,16 +89,16 @@
 
         <div>
 	    <div style="width:100%;" id="topwords">
-        	<div style="display:inline-block;width:50%;min-width:320px;padding-left:2%;" id="topleftwords">
+        	<div id="topleftwords">
                     <p class="title">让我们牵手，一起走向璀璨星空</p>
                     <p class="title2">Hand in Hand &amp; Step into the Miraculous Sky</p>
                 </div>
-                <div style="display:inline-block;width:49%;min-width:320px;text-align:right;padding-right:2%;" id="toprightwords">
+                <div id="toprightwords">
                     <p class="title">山东大学天文爱好者协会</p>
                     <p class="title2">Amateur Astronomy Association @ SDU</p>
                 </div>
             </div>
-            <div style="border-top:1px solid #999999;margin-top:-10px;">
+            <div style="border-top:1px solid #999999;" id="navdiv">
                 <nav>
                    <ul>
                       <li><a href="http://sdutianxie.lamost.org/web">网站<br> <small>新闻，资源</small></a></li>
@@ -147,10 +135,11 @@
     <div style="clear:both; display:block; height:10px;"></div>
 
 <!-- Footer -->
-<div style="border-top:3px solid #222222;color:gray;margin-top:50px;float:center;width:79%;min-width:320px;font-size:70%;">
-		<p>感谢<a href="http://cosmostation.lamost.org" style="color:gray;text-decoration:none;">国家天文台LAMOST项目</a>为本站提供服务器</p>
-		<p class="style8">©2013 山东大学天文爱好者协会</p>
-		</p><a href="http://www.miibeian.gov.cn/" style="color:gray;text-decoration:none;">京ICP备05002854号</a> </p>
+<div id="footerdiv">
+
+		<span>©2013 山东大学天文爱好者协会</span> | 
+		</span><a href="http://www.miibeian.gov.cn/" style="color:gray;text-decoration:none;">京ICP备05002854号</a> </span>
+                <p>感谢<a href="http://cosmostation.lamost.org" style="color:gray;text-decoration:none;">国家天文台LAMOST项目</a>为本站提供服务器</p>
 </div>
 </center>
 
