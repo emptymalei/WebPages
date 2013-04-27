@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- A index page for AAA@SDU --> 
+<html> 
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+    <title>导航页|山东大学天文爱好者协会</title> 
+    <meta name="description" content="山东大学天文爱好者协会网站导航页"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/icon/favicon.ico" />
+
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Styles // This is the original comment of the camera basic.html page. I would like to keep it and thank the author.
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+    <link rel="stylesheet" type="text/css" href="css/respnav.css"/>
+    <style>
+		body {
+			margin: 0;
+			padding: 0;
+            background-color: black;
+		}
+		a {
+			color: #09f;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		#back_to_camera {
+			clear: both;
+			display: block;
+			height: 80px;
+			line-height: 40px;
+			padding: 20px;
+		}
+		.fluid_container {
+			margin: 0 auto;
+			max-width: 1000px;
+			width: 90%;
+		}
+
+	</style>
+
+
+
+
+
+
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Load the Scripts
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    
+    <script type='text/javascript' src='scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='scripts/camera.min.js'></script> 
+    
+    <script>
+		jQuery(function(){
+
+            jQuery('#aaasdu_wrap_1').camera({
+                pagination:false,
+                loader:'bar',
+                alignment:'center',
+                hover: false,
+                minHeight: '200px',
+                time: 7000,
+                transPeriod: 800,
+                loaderColor: '#555555',
+                loaderBgColor: 'black'
+                });
+		});
+	</script>
+ 
+
+
+</head>
+<body>
+
+
+    <div class="fluid_container">
+
+        <div>
+	    <div style="width:100%;" id="topwords">
+        	<div id="topleftwords">
+                    <p class="title">让我们牵手，一起走向璀璨星空</p>
+                    <p class="title2">Hand in Hand &amp; Step into the Miraculous Sky</p>
+                </div>
+                <div id="toprightwords">
+                    <p class="title">山东大学天文爱好者协会</p>
+                    <p class="title2">Amateur Astronomy Association @ SDU</p>
+                </div>
+            </div>
+            <div style="border-top:1px solid #999999;" id="navdiv">
+                <nav>
+                   <ul>
+                      <li><a href="http://sdutianxie.lamost.org/web">网站<br> <small>新闻，资源</small></a></li>
+                      <li><a href="http://sdutianxie.lamost.org/forum">论坛<br> <small>咨询，聊天</small></a></li>
+                      <li><a href="http://zhan.renren.com/sdutianxie">小站<br> <small>人人网小站</small></a></li>
+                      <li><a href="http://sdutianxie.lamost.org/web/bencandy.php?fid=50&id=731">联系<br> <small>联系山大天协</small></a></li>
+                   </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="camera_wrap camera_white_skin" id="aaasdu_wrap_1">
+            <div data-src="images/slides/1.png">
+                <div class="camera_caption fadeIn">系外行星，我们的征途。<a href="http://www.wired.co.uk/magazine/archive/2011/02/start/infoporn" style="color:yellow;text-decoration:none;" target="blank_">图片来源</a></div>
+            </div>
+            <div data-src="images/slides/2.jpg">
+                <div class="camera_caption fadeIn">吝啬的月偏食。<a href="http://weibo.com//1403366091/ztSwWaG5u" style="color:yellow;text-decoration:none;" target="blank_">图片来源</a></div>
+            </div>
+            <div data-src="images/slides/3.jpg">
+                <div class="camera_caption fadeIn">C/2011 L4 Panstarrs 彗星。 <a href="http://philhart.com/content/comet-hunting-march" style="color:yellow;text-decoration:none;" target="blank_">图片来源</a> </div>            
+	    </div>
+        <!--     <div data-src="images/slides/4.jpg">C/2011 L4 Panstarrs 彗星。<a href="http://philhart.com/content/comet-hunting-march" style="color:yellow;text-decoration:none;">图片来源</a></div>
+           <div data-src="images/slides/shelter.jpg"></div>
+            <div data-src="images/slides/tree.jpg"></div> 
+	-->
+        </div>
+
+
+
+    </div>
+
+    
+<center>
+    <div style="clear:both; display:block; height:10px;"></div>
+
+<!-- Footer -->
+<div id="footerdiv">
+
+		<span>©2013 山东大学天文爱好者协会</span> | <span><a href="http://sdutianxie.lamost.org/guides/index.html" style="color:white;text-decoration:none;">历史导航页</a></span> | 
+		</span><a href="http://www.miibeian.gov.cn/" style="color:gray;text-decoration:none;">京ICP备05002854号</a> </span>
+                <p>感谢<a href="http://cosmostation.lamost.org" style="color:gray;text-decoration:none;">国家天文台LAMOST项目</a>为本站提供服务器</p>
+</div>
+</center>
+
+
+</body> 
+</html>
