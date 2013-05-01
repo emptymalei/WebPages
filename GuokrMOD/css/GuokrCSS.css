@@ -1,0 +1,62 @@
+@charset "utf-8";
+body * {
+ font-family:Arial,sans-serif,Ubuntu,"Micro Hei", Tahoma,SimSun !important;
+/*color:red;!important;*/
+  }
+.eqnCode {
+	color:green;!important;
+	width:80%;
+}
+
+
+#equationPreview {
+	color:green;
+	width:45%;
+}
+
+.global-nav {
+	border-bottom: 1px solid lightBlue !important;
+}
+#db-global-nav {
+	background-color: #FFFFF2 !important; // Background color of the nav bar.
+}
+.global-nav-items {
+}
+.global-nav-items a {
+	color:#99C4D2 !important; //font color of the nav item links.
+}
+.global-nav-items a:hover {
+	color:#F58612 !important; //font color of the nav item links.
+}
+.top-nav-reminder {
+}
+.top-nav-reminder a {
+	color: #50C7D7 !important;
+}
+.top-nav-reminder a:hover {
+	color: #F58612 !important;
+}
+.link-reminder a {
+	color: #50C7D7 !important;
+}
+.link-reminder a:hover {
+	color: #7aca29 !important;
+}
+.top-nav-info a {
+	color: #50C7D7 !important;
+}
+.top-nav-info a:hover {
+	color: #F58612 !important;
+}
+
+
+//SNS NAV
+#db-nav-sns {
+	background-color: #FFFFF2 !important;	
+}
+.nav {
+	background-color: #FFFFF2 !important;	
+}
+#db-nav-sns .nav-logo {
+	background:url(http://img3.douban.com/pics/site/sp_logo1.png) no-repeat 0 12px !important;
+}
