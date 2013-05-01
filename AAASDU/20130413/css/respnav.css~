@@ -34,7 +34,7 @@
 }
 #navdiv {
     margin-top:-0.65em;
-    font-family:微软雅黑;
+		font-family:微软雅黑;
 }
 #footerdiv {
     border-top:3px solid #222222;
