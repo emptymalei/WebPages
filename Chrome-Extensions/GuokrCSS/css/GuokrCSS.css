@@ -1,0 +1,31 @@
+@charset "utf-8";
+body * {
+ font-family:Arial,sans-serif,Ubuntu,"Micro Hei", Tahoma,SimSun, "Hiragino Sans GB" ,"Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei"  !important;
+  }
+
+
+
+.gheader-new {
+background-color:white !important;
+}
+
+.gheader-new a {
+color:#000 !important;
+/*font-weight:bold; */
+}
+
+.gheader-new a:hover {
+color:#FFF !important;
+    background:#85c155 !important;
+}
+
+.gheader-new .gh-nav-active {
+background:#85c155 !important;
+    color:#FFF !important;
+}
+
+.gheader-new .gh-i-num {
+background:#FFF !important;
+border:1px solid #000 !important;
+}
+
