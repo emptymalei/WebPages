@@ -1,0 +1,13 @@
+<script>
+myButton = document.createElement("input");
+myButton.type = "button";
+myButton.value = "my button";
+placeHolder = document.getElementById("button");
+placeHolder.appendChild(myButton);
+</script>
+
+chrome.browserAction.onClicked.addListener(function(tab) {
+  chrome.tabs.executeScript({
+    code: '<button onclick="TogetherJS(this); return false;">Start TogetherJS</button>'
+  }); 
+});

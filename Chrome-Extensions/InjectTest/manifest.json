@@ -1,0 +1,11 @@
+{
+    "manifest_version":         2,
+    "content_scripts":          [ {
+        "js":       [ "js/iframeInjector.js" ],
+        "matches":  [   "http://*.guokr.com/*"]
+    } ],
+    "description":              "Inject a complete, premade web page",
+    "name":                     "Inject whole web page",
+    "version":                  "1",
+    "web_accessible_resources": ["embed.html"]
+}
