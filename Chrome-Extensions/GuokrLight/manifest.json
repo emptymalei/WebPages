@@ -1,0 +1,9 @@
+{
+   "content_scripts": [ {
+      "css":["css/GuokrLight.css"],
+      "matches":["*://*.guokr.com/*"]
+   } ],
+   "name": "GuokrLight",
+   "version": "1.414",
+   "manifest_version": 2
+}
