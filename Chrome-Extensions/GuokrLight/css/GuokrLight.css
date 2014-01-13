@@ -40,6 +40,10 @@ visibility:hidden !important;
 }
 */
 
+.ufo-btn {
+    visibility:hidden !important;
+} 
+
 
 .ask-content-page .answers .answer-digg .highlight.answer-digg-up, .ask-content-page .answers .answer-digg .highlight.answer-digg-dw {
 background:#ddf1ff !important;

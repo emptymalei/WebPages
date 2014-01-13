@@ -1,0 +1,9 @@
+{
+   "content_scripts": [ {
+      "css":["css/GuokrNoUFO.css"],
+      "matches":["*://*.guokr.com/*"]
+   } ],
+   "name": "GuokrNoUFO",
+   "version": "1.414",
+   "manifest_version": 2
+}
