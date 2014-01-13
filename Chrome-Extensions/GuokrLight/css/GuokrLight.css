@@ -1,31 +1,46 @@
 @charset "utf-8";
-body * {
- font-family:Arial,sans-serif,Ubuntu,"Micro Hei", Tahoma,SimSun, "Hiragino Sans GB" ,"Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei"  !important;
-  }
-
-
-
+ body * {
+    font-family: Arial, sans-serif, Ubuntu, "Micro Hei", Tahoma, SimSun, "Hiragino Sans GB", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei" !important;
+}
 .gheader-new {
-background-color:white !important;
+    background-color: white !important;
 }
-
 .gheader-new a {
-color:#000 !important;
-/*font-weight:bold; */
+    color: #000 !important;
+    /*font-weight:bold; */
 }
-
 .gheader-new a:hover {
-color:#FFF !important;
-    background:#85c155 !important;
+    color: #FFF !important;
+    background: #85c155 !important;
 }
-
 .gheader-new .gh-nav-active {
-background:#85c155 !important;
-    color:#FFF !important;
+    background: #85c155 !important;
+    color: #FFF !important;
 }
-
 .gheader-new .gh-i-num {
-background:#FFF !important;
-border:1px solid #000 !important;
+    background: #FFF !important;
+    border: 1px solid #000 !important;
+}
+.gheader-new .unread .gh-i-num {
+    color: red !important;
+}
+.gheader-new .gactived {
+background:#85c155 !important;
 }
 
+/*
+.gicon-sai, .gicon-male, .gicon-female, .gicon-lquote, .gicon-rquote, .gicon-arrow, .gicon-arrow-up, .gicon-focus, .gicon-focused, .gicon-blog, .gicon-answer, .gicon-question, .gicon-post, .gicon-news, .gicon-tag, .gicon-group, .gicon-weibo, .gicon-profile, .gicon-avatar, .gicon-security, .gicon-external_account, .gicon-focus-actived, .gicon-focused-actived, .gicon-blog-actived, .gicon-answer-actived, .gicon-question-actived, .gicon-post-actived, .gicon-news-actived, .gicon-tag-actived, .gicon-group-actived, .gicon-weibo-actived, .gicon-profile-actived, .gicon-avatar-actived, .gicon-security-actived, .gicon-external_account-actived, .gicon-notice, .gicon-remind, .gicon-settings, .gicon-message, .gicon-draft, .gicon-notice-actived, .gicon-remind-actived, .gicon-settings-actived, .gicon-message-actived, .gicon-draft-actived, .gicon-notice-unread, .gicon-remind-unread, .gicon-unread, .gicon-notice-unread-actived, .gicon-remind-unread-actived, .gicon-search, .gicon-sina, .gicon-qq, .gicon-rr, .gicon-douban, .gicon-lsina, .gicon-lqq, .gicon-lrr, .gicon-binded, .gicon-bind, .gicon-unbind, .gicon-close, .gicon-rss, .gicon-prev, .gicon-next, .gicon-share-rr, .gicon-share-db, .bdsharebuttonbox .gicon-share-db, .gicon-share-qzone, .bdsharebuttonbox .gicon-share-qzone, .gicon-share-qqmb, .bdsharebuttonbox .gicon-share-qqmb, .gicon-share-sina, .bdsharebuttonbox .gicon-share-sina, .gicon-share-weixin, .bdsharebuttonbox .gicon-share-weixin, .gicon-share-lrr, .gicon-share-lsina, .bdsharebuttonbox .gicon-share-lsina, .gicon-share-ldb, .bdsharebuttonbox .gicon-share-ldb, .gicon-share-lqzone, .bdsharebuttonbox .gicon-share-lqzone, .gicon-share-lqqmb, .bdsharebuttonbox .gicon-share-lqqmb, .gicon-share-lweixin, .bdsharebuttonbox .gicon-share-lweixin, .icon-close, .icon-close:hover, .gicon-members, .gicon-blacklist, .gicon-audit, .gicon-group_settings, .gicon-group_customize, .gicon-group_topic_set, .gicon-demote_member, .gicon-promote_admin, .gicon-demote_blacklist, .gicon-demote_group, .gicon-promote_blacklist, .gicon-leader, .gicon-top, .gicon-best, .gicon-hot, .gicon-super, .titles-comment-icon, .gicon-msg, .gicon-msg_click, .gicon-mail_reset, .gicon-basket, .gicon-basket-actived, .gicon-up, .gicon-article, .gicon-article-actived {
+background: url('../img/rss.png') transparent no-repeat !important;
+}
+*/
+
+/*
+#toolBar {
+visibility:hidden !important;
+}
+*/
+
+
+.ask-content-page .answers .answer-digg .highlight.answer-digg-up, .ask-content-page .answers .answer-digg .highlight.answer-digg-dw {
+background:#ddf1ff !important;
+}
